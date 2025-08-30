@@ -11,7 +11,7 @@ export default function LandingPage() {
       <nav className="navbar">
         <div className="logo" >
           <img src={img} alt="Logo" style={{ height: 60, marginRight: 10 }} /> 
-          <span style={{ fontSize: 24, fontWeight: "bold" }}>Ds.</span>
+          <span style={{ fontSize: 24, fontWeight: "bold" }}>DSA.</span>
         </div>
       </nav>
       <div className="landing-card">
