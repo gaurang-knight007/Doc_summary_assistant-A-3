@@ -1,19 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./styles.css";
-import img from "../assets/docsum.png";
+import Navbar from "../components/Navbar";
 
 export default function LandingPage() {
   const navigate = useNavigate();
 
   return (
     <div className="landing-container">
-      <nav className="navbar">
-        <div className="logo" >
-          <img src={img} alt="Logo" style={{ height: 60, marginRight: 10 }} /> 
-          <span style={{ fontSize: 24, fontWeight: "bold" }}>DSA.</span>
-        </div>
-      </nav>
+      <Navbar />
       <div className="landing-card">
         <h1 className="h1">Document Summary Assistant</h1>
         <p className="sub">
