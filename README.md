@@ -9,35 +9,39 @@ This project was built as part of a Technical Assessment for Software Engineerin
 **Backend**: Express API (PDF parsing + OCR + Groq summary)
 **Frontend**: React + Vite (drag/drop upload, length options, loading states, errors)
 
-## 🚀 Features
 ---
+
+## 🚀 Features
+
 ### 1. Document Upload
 Upload PDFs or images (JPG, PNG, scanned docs).
 Drag-and-drop or file picker interface.
----
+
 ### 2. Text Extraction
 PDF Parsing: Extracts text from PDFs while maintaining structure.
 OCR (Optical Character Recognition): Uses Tesseract.js for scanned images.
----
+
 ### 3. Smart Summarization
 Generates short, medium, or long summaries.
 Extracts key points and tags for quick reference.
 Powered by-: 
 #### Groq LLM API.
----
+
 ### 4. Export Options
 Download the generated summary as:
 #### 📑 DOCX
 #### 📕 PDF
----
+
 ### 5. UI/UX
 Clean, responsive React.js frontend.
 Loading states, error handling, and a polished interface.
----
+
 ### 6. Hosting
 Frontend deployed on Render Static Site.
 Backend deployed on Render Web Service.
+
 ---
+
 ### 🛠️ Tech Stack
 #### Frontend: React.js (Vite)
 #### Backend: Express.js (Node.js)
@@ -46,7 +50,9 @@ Backend deployed on Render Web Service.
 #### PDF Parsing: pdf-parse
 #### File Handling: Multer
 #### Deployment: Render & Vercel
+
 ---
+
 ### 🏗️ System Architecture
 ```bash
   A[User Uploads Document] --> B[Frontend React App]
@@ -60,7 +66,9 @@ Backend deployed on Render Web Service.
   H --> B
   B -->|Download| I[DOCX/PDF Export]
 ```
+
 ---
+
 ### 📂 Project Structure
 ```bash
 mern-doc-summary-assistant/
@@ -83,14 +91,15 @@ mern-doc-summary-assistant/
    ├─ vite.config.js
    └─ package.json
 ```
+
 ---
+
 ### ⚙️ Installation & Setup
 #### 1. Clone Repo
 ```bash
 git clone https://github.com/gaurang-knight007/Doc_summary_assistant-A-3.git
 cd Doc_summary_assistant-A-3
 ```
----
 #### 2. Backend Setup
 ```bash
 cd backend
@@ -98,28 +107,29 @@ cp .env   # add your GROQ_API_KEY
 npm install
 npm start
 ```
-
 Backend runs on: 
 ```bash
 http://localhost:8080
 ```
-
 #### 3. Frontend Setup
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-
 Frontend runs on: 
 ```bash
 http://localhost:5173
 ```
 
 Note: Ensure backend is running before starting frontend.
+
 ---
+
 ### 📜 License
+```bash
 This project is licensed under the MIT License.
+```
 ---
 ### 👨‍💻 Author
 ```bash
