@@ -9,7 +9,7 @@ export default function SummaryView({ data })
   const { result } = data;
   const { summary = '', key_points = [], tags = [] } = result || {}
 
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
+  const API_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080';
 
   async function handleDownload(format)
   {
