@@ -27,7 +27,7 @@ export default function UploadDropzone({ onFile }) {
         style={{ display: 'none' }}
         onChange={(e) => e.target.files?.[0] && onFile(e.target.files[0])}
       />
-      <p className="helper">Max size is usually 25MB (configurable on server).</p>
+      <p className="helper">Max size is usually 15MB (configurable on server).</p>
     </div>
   )
 };
