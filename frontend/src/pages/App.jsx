@@ -5,7 +5,7 @@ import SummaryView from '../components/SummaryView';
 import Loader from '../components/Loader';
 import { summarize } from '../api';
 import './styles.css';
-import img from '../assets/docsum.png';
+import Navbar from '../components/Navbar';
 
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -32,12 +32,7 @@ export default function App() {
 
   return (
     <>
-      <nav className="navbar">
-        <div className="logo" >
-          <img src={img} alt="Logo" style={{ height: 60, marginRight: 10 }} /> 
-          <span style={{ fontSize: 24, fontWeight: "bold" }}>DSA.</span>
-        </div>
-      </nav>
+      <Navbar />
       <div className="container">
         <div className="card" style={{ marginBottom: 16 }}>
           <h1 className="h1 center-text">Document Summary Assistant</h1>
