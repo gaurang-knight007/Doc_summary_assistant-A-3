@@ -1,6 +1,6 @@
 # 📄 Document Summary Assistant
 
-**Live App**: _Add Vercel URL_
+**Live App**: https://doc-assistant-indol.vercel.app/
 
 Document Summary Assistant is a full-stack MERN application that allows users to upload PDFs or scanned images and generates concise, AI-powered summaries with key points instantly.
 
