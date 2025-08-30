@@ -54,7 +54,7 @@ export default function App() {
         <SummaryView data={data} />
         
         <div className="card contact-card center-text">
-          <h2 className="h1" style={{ fontSize: 20 }}>Contact Developer</h2>
+          <h2 className="h1" style={{ fontSize: 20 }}>Contact</h2>
           <p className="sub">Have feedback, feature requests, or issues? Reach out:</p>
           <p><strong>Developer:</strong> Gaurang Gautam</p>
           <div className="social-links">
