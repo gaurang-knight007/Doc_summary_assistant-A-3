@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 const uploadDir = path.join(__dirname, 'uploads');
 if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir, { recursive: true });
 
-const maxFileSizeMb = Number(process.env.MAX_FILE_SIZE_MB || 25);
+const maxFileSizeMb = Number(process.env.MAX_FILE_SIZE_MB || 15);
 const upload = multer({
   dest: uploadDir,
   limits: { fileSize: maxFileSizeMb * 1024 * 1024 }
